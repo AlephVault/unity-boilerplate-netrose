@@ -13,11 +13,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{b378f510-ac66-f2ba-f432-1edb6dccffe1}</ProjectGuid>
+    <ProjectGuid>{c6b25105-1056-15ce-1a11-bfc7a2be7d73}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>AlephVault.Unity.CamJam</AssemblyName>
+    <AssemblyName>AlephVault.Unity.TextureUtils.Samples</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -52,10 +52,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-camjam\Runtime\Authoring\Behaviours\JammedCamera.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-camjam\Runtime\Authoring\Behaviours\CameraJammingEffect.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-camjam\Runtime\Authoring\Behaviours\Tremor.cs" />
-     <None Include="\home\luismasuelli\Projects\Unity\unity-camjam\Runtime\AlephVault.Unity.CamJam.asmdef" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-textureutils\Samples\Scripts\SampleBlitSprite.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-textureutils\Samples\Scripts\SampleTextureAssigner.cs" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-textureutils\Samples\AlephVault.Unity.TextureUtils.Samples.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -649,6 +648,10 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="AlephVault.Unity.TextureUtils.Runtime.csproj">
+      <Project>{f068271e-9b99-3dd9-7b7f-563153c70dd3}</Project>
+      <Name>AlephVault.Unity.TextureUtils.Runtime</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

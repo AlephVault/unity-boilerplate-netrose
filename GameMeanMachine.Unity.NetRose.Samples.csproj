@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2f0ded13-e79f-1735-f980-11674a0ae060}</ProjectGuid>
+    <ProjectGuid>{fdb41d1c-2b57-736e-cea0-490a9dd9ac72}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -61,6 +61,7 @@
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Samples\Scripts\Server\SampleServerStarter.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Samples\Scripts\Server\OwnableModelServerSide.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Samples\Scripts\Client\SampleClientHandler.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Samples\Scripts\Server\Protocols\SamplePrincipalProtocolServerSide.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Samples\Scripts\Server\TeleportSpawner.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Samples\Scripts\Client\OwnableModelClientSide.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Samples\Scripts\Server\DoorLinker.cs" />
@@ -288,9 +289,6 @@
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.WebGL.Extensions">
- <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Android.Extensions">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
@@ -298,16 +296,16 @@
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/home/luismasuelli/Projects/Unity/My NetRose Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>/home/luismasuelli/Projects/Unity/My NetRose Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>/home/luismasuelli/Projects/Unity/My NetRose Game/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/home/luismasuelli/Projects/Unity/My NetRose Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -655,39 +653,39 @@
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/home/luismasuelli/Projects/Unity/My NetRose Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/home/luismasuelli/Projects/Unity/My NetRose Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AlephVault.Unity.Support.Runtime.csproj">
-      <Project>{c2c184f8-4b91-bd3c-7316-c725d89ba260}</Project>
+      <Project>{0cdefd7c-1670-a7d2-9c95-849900ed8a5e}</Project>
       <Name>AlephVault.Unity.Support.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="AlephVault.Unity.Layout.Runtime.csproj">
-      <Project>{e14654ca-088f-6fa0-90b1-6c27e5d6b693}</Project>
+      <Project>{bd21ebbf-4615-dd0f-c09c-db39f760560b}</Project>
       <Name>AlephVault.Unity.Layout.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="AlephVault.Unity.Binary.Runtime.csproj">
-      <Project>{1cad1368-bcdb-19c4-8177-2b4390cdf8e6}</Project>
+      <Project>{446ad4e5-fe88-6b36-b577-1446f964019b}</Project>
       <Name>AlephVault.Unity.Binary.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="AlephVault.Unity.Meetgard.Runtime.csproj">
-      <Project>{269ae18d-c4e3-7440-fb15-b1fb16c5e677}</Project>
+      <Project>{9df70f52-50da-2ae0-c34e-e4f2bdc19750}</Project>
       <Name>AlephVault.Unity.Meetgard.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="AlephVault.Unity.Meetgard.Scopes.Runtime.csproj">
-      <Project>{4e99ceda-dea3-6741-4e52-419295bf004d}</Project>
+      <Project>{07ae5edf-e75b-1834-4a34-ade5aec1c4ff}</Project>
       <Name>AlephVault.Unity.Meetgard.Scopes.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="GameMeanMachine.Unity.WindRose.Runtime.csproj">
-      <Project>{b1979b04-9c19-ad34-3a09-f68efccf6d5f}</Project>
+      <Project>{e2979509-8bbe-88ab-80e7-d8328a1f188c}</Project>
       <Name>GameMeanMachine.Unity.WindRose.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="GameMeanMachine.Unity.NetRose.Runtime.csproj">
-      <Project>{ffc06471-20b8-b4c6-f849-53a9b4b7fed1}</Project>
+      <Project>{f0ad406d-e200-4869-6c99-bb71e2b0b0c6}</Project>
       <Name>GameMeanMachine.Unity.NetRose.Runtime</Name>
     </ProjectReference>
   </ItemGroup>

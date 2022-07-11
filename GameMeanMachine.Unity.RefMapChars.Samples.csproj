@@ -13,11 +13,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{b378f510-ac66-f2ba-f432-1edb6dccffe1}</ProjectGuid>
+    <ProjectGuid>{6619944d-7a5c-8871-c7f7-ca1366dfe568}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>AlephVault.Unity.CamJam</AssemblyName>
+    <AssemblyName>GameMeanMachine.Unity.RefMapChars.Samples</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -52,10 +52,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-camjam\Runtime\Authoring\Behaviours\JammedCamera.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-camjam\Runtime\Authoring\Behaviours\CameraJammingEffect.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-camjam\Runtime\Authoring\Behaviours\Tremor.cs" />
-     <None Include="\home\luismasuelli\Projects\Unity\unity-camjam\Runtime\AlephVault.Unity.CamJam.asmdef" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Samples\Scripts\SampleRefMapRotator.cs" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Samples\GameMeanMachine.Unity.RefMapChars.Samples.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -649,6 +647,14 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="GameMeanMachine.Unity.RefMapChars.Runtime.csproj">
+      <Project>{bbd2eb42-db76-5cac-e9cb-26b83a4e3a8e}</Project>
+      <Name>GameMeanMachine.Unity.RefMapChars.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.Runtime.csproj">
+      <Project>{e2979509-8bbe-88ab-80e7-d8328a1f188c}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.Runtime</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

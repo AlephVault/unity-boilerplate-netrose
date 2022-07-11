@@ -13,11 +13,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{b378f510-ac66-f2ba-f432-1edb6dccffe1}</ProjectGuid>
+    <ProjectGuid>{9b92ed08-e55b-c3cc-82fc-c435f51ba1ef}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>AlephVault.Unity.CamJam</AssemblyName>
+    <AssemblyName>AlephVault.Unity.SpriteUtils.Runtime</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -52,10 +52,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-camjam\Runtime\Authoring\Behaviours\JammedCamera.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-camjam\Runtime\Authoring\Behaviours\CameraJammingEffect.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-camjam\Runtime\Authoring\Behaviours\Tremor.cs" />
-     <None Include="\home\luismasuelli\Projects\Unity\unity-camjam\Runtime\AlephVault.Unity.CamJam.asmdef" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-spriteutils\Runtime\Types\SpriteGrid.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-spriteutils\Runtime\Types\SpriteGridSelection.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-spriteutils\Runtime\Types\IdentifiedSpriteGridPool.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-spriteutils\Runtime\Types\IdentifiedSpriteGrid.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-spriteutils\Runtime\Authoring\Behaviours\SpriteGridSelectionApplier.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-spriteutils\Runtime\Types\MappedSpriteGridSelection.cs" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-spriteutils\Runtime\AlephVault.Unity.SpriteUtils.Runtime.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -649,6 +652,10 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="AlephVault.Unity.Support.Generic.Runtime.csproj">
+      <Project>{36b7171f-0ea6-e806-a4bf-9b4d071e874f}</Project>
+      <Name>AlephVault.Unity.Support.Generic.Runtime</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
