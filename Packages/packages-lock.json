@@ -186,7 +186,7 @@
         "com.gamemeanmachine.unity.windrose.neighbourteleports": "0.0.2"
       }
     },
-    "com.gamemeanmachine.unity.windrose.lpc-biomes": {
+    "com.gamemeanmachine.unity.windrose.lpcbiomes": {
       "version": "file:/home/luismasuelli/Projects/Unity/unity-windrose-lpc-biomes",
       "depth": 0,
       "source": "local",
