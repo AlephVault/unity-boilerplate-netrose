@@ -40,15 +40,15 @@ So far this project relies on a set of packages that I could consider, at best, 
  - com.gamemeanmachine.unity.netrose [Clone it - 0.0.3](https://gitlab.com/gamemeanmachine/unity-netrose/-/tree/0.0.3).
  - com.gamemeanmachine.unity.netrose.storage [Clone it - 0.0.1](https://gitlab.com/gamemeanmachine/unity-netrose-storage/-/tree/0.0.1).
  - com.gamemeanmachine.unity.netrose.refmapchars [Clone it - 0.0.1](https://gitlab.com/gamemeanmachine/unity-netrose-refmapchars/-/tree/0.0.1).
+
+
 Licenses
 --------
 
-The contents of the Assets/Graphics/Tiles/Biomes belongs mostly to [LPC](http://https://lpc.opengameart.org/) and is distributed with license CC BY-SA 3.0 and GPL 3.0.
+Pay attention to license notices in the readme for the following packages:
 
-Credits must be given, for those assets, to:
+ - com.gamemeanmachine.unity.windrose.lpcbiomes
+ - com.gamemeanmachine.unity.netrose.refmapchars
 
-    Liberated Pixel Cup (LPC) Base Assets 
-    Lanea Zimmerman (Sharm)
-    CC-BY-SA 3.0 / CC-BY 3.0 / GPL 3.0
-    https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles
+As a general rule of thumb, NEVER use any asset included in any of the Samples/ directory (in any package), since most of them were generated with tools that DO NOT allow free distribution.
 
