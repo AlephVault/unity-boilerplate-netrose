@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "com.alephvault.unity.binary": "file:../../unity-binary",
+    "com.alephvault.unity.binary": "file:/home/luismasuelli/Projects/Unity/unity-binary",
+    "com.alephvault.unity.boilerplates": "file:/home/luismasuelli/Projects/Unity/unity-boilerplates",
     "com.alephvault.unity.camjam": "file:../../unity-camjam",
     "com.alephvault.unity.layout": "file:../../unity-layout",
     "com.alephvault.unity.meetgard": "file:../../unity-meetgard",
@@ -25,6 +26,8 @@
     "com.gamemeanmachine.unity.windrose.neighbourteleports": "file:../../unity-windrose-neighbourteleports",
     "com.gamemeanmachine.unity.windrose.refmapchars": "file:../../unity-windrose-refmapchars",
     "com.gamemeanmachine.unity.windrose.spriteutils": "file:../../unity-windrose-spriteutils",
+    "com.gamemeanmchine.unity.netrose.refmapchars": "file:/home/luismasuelli/Projects/Unity/unity-netrose-refmapchars",
+    "com.gamemeanmchine.unity.netrose.storage": "file:/home/luismasuelli/Projects/Unity/unity-netrose-storage",
     "com.unity.2d.animation": "5.0.5",
     "com.unity.2d.pixel-perfect": "4.0.1",
     "com.unity.2d.psdimporter": "4.0.2",

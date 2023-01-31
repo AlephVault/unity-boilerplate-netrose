@@ -13,11 +13,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9df70f52-50da-2ae0-c34e-e4f2bdc19750}</ProjectGuid>
+    <ProjectGuid>{924e5454-b744-0ad1-09a6-f466b9b79861}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>AlephVault.Unity.Meetgard.Runtime</AssemblyName>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -52,51 +52,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Client\PingProtocolClientSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\NetworkServer\NetworkServer_lifeCycle.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Client\NetworkClient\NetworkClient.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\NetworkServer\NetworkServer_protocols.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Client\MandatoryHandshakeProtocolClientSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\NetworkServer\NetworkServer_endpoints.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\NetworkServer\NetworkServer_events.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\UnexpectedMessageException.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\NetworkServer\NetworkServer_streams.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\Exception.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\IProtocolServerSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Client\ProtocolClientSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Protocols\MandatoryHandshakeProtocolDefinition.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\IncomingMessageTypeMismatchException.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\MessageOverflowException.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\MissingZeroProtocol.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Utils\MessageUtils.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\ServerSideThrottler.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\MessageHeader.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\NetworkServer\NetworkServer_main.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Client\NetworkClient\NetworkClient_streams.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Protocols\ProtocolDefinition.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Client\ZeroProtocolClientSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\ZeroProtocolServerSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Client\NetworkClient\NetworkClient_main.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\Endpoints\Remote\NetworkRemoteEndpoint_events.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\NetworkServer\NetworkServer.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Client\IProtocolClientSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\ProtocolServerSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\Endpoints\Remote\NetworkRemoteEndpoint_main.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Protocols\ZeroProtocolDefinition.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\Endpoints\NetworkEndpoint.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Client\NetworkClient\NetworkClient_protocols.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\MandatoryHandshakeProtocolServerSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\Nothing.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\HandlerAlreadyRegisteredException.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\Endpoints\Remote\NetworkRemoteEndpoint_lifeCycle.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\OutgoingMessageTypeMismatchException.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\UnknownProtocolException.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Client\ClientSideThrottler.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\Endpoints\Remote\NetworkRemoteEndpoint_messageQueues.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\PingProtocolServerSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Protocols\PingProtocolDefinition.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Protocols\Version.cs" />
-     <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\AlephVault.Unity.Meetgard.Runtime.asmdef" />
+     <Compile Include="Assets\Scripts\Server\Authoring\Behaviours\External\Models\Position.cs" />
+     <Compile Include="Assets\Scripts\Server\Authoring\Behaviours\External\Models\Character.cs" />
+     <Compile Include="Assets\Scripts\Server\Authoring\Behaviours\External\Client\MultiCharAccountAPIClient.cs" />
+     <Compile Include="Assets\Scripts\Server\Authoring\Behaviours\External\Models\Map.cs" />
+     <Compile Include="Assets\Scripts\Server\Authoring\Behaviours\External\Models\Scope.cs" />
+     <Compile Include="Assets\Scripts\Server\Authoring\Behaviours\External\Models\MultiCharAccount.cs" />
  <Reference Include="UnityEngine">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -316,26 +277,8 @@
  <Reference Include="UnityEditor.UnityConnectModule">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.Graphs">
- <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.Android.Extensions">
- <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.LinuxStandalone.Extensions">
- <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="log4netPlastic">
- <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
- </Reference>
  <Reference Include="Newtonsoft.Json">
  <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="unityplastic">
- <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -682,25 +625,304 @@
  <Reference Include="mscorlib">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.InternalAPIEngineBridge.001">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VSCode.Editor">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.PixelPerfect">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+ </Reference>
+ <Reference Include="PsdPlugin">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.IK.Editor">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Path.Editor">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.IK.Runtime">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Triangle.Runtime">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics.Editor">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Editor">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Tilemap.Extras">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Editor">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Tilemap.Editor">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VisualStudio.Editor">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Sysroot.Linux_x86_64">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Psdimporter.Editor">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Toolchain.Linux-x86_64">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEditorBridge.001">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PlasticSCM.Editor">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Runtime">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.PixelPerfect.Editor">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Runtime">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.SpriteShape.Editor">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.SpriteShape.Runtime">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.SysrootPackage.Editor">
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-netrose/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="AlephVault.Unity.Binary.Runtime.csproj">
-      <Project>{446ad4e5-fe88-6b36-b577-1446f964019b}</Project>
-      <Name>AlephVault.Unity.Binary.Runtime</Name>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.RefMapChars.Runtime.csproj">
+      <Project>{5f06aa1b-e49c-87f1-803c-569952b05cc8}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.RefMapChars.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="AlephVault.Unity.Support.Runtime.csproj">
       <Project>{0cdefd7c-1670-a7d2-9c95-849900ed8a5e}</Project>
       <Name>AlephVault.Unity.Support.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.Meetgard.Scopes.Samples.csproj">
+      <Project>{d3357253-6b4b-9db2-9cc8-51edeb21ea00}</Project>
+      <Name>AlephVault.Unity.Meetgard.Scopes.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.Boilerplates.Editor.csproj">
+      <Project>{99dc2b18-6e2c-479b-399a-b9ec7cd57d0d}</Project>
+      <Name>AlephVault.Unity.Boilerplates.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.MenuActions.Editor.csproj">
+      <Project>{5535ec89-3ecf-e9e2-b738-8b640e032389}</Project>
+      <Name>AlephVault.Unity.MenuActions.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.GabTab.Editor.csproj">
+      <Project>{5996e472-e44a-3ccd-449b-5321a49f2003}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.GabTab.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.Meetgard.Scopes.Runtime.csproj">
+      <Project>{07ae5edf-e75b-1834-4a34-ade5aec1c4ff}</Project>
+      <Name>AlephVault.Unity.Meetgard.Scopes.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.Biomes.Runtime.csproj">
+      <Project>{d0672795-708e-bb1b-9f5a-ee1dc1cda38e}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.Biomes.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.CamJam.csproj">
+      <Project>{b378f510-ac66-f2ba-f432-1edb6dccffe1}</Project>
+      <Name>AlephVault.Unity.CamJam</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.BackPack.Editor.csproj">
+      <Project>{0251e892-9ca6-7ad4-dc22-e3d419b067a2}</Project>
+      <Name>GameMeanMachine.Unity.BackPack.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.BackPack.Runtime.csproj">
+      <Project>{bcf9bb74-38e8-2dfb-1742-806dde1c7c8f}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.BackPack.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.Meetgard.Auth.Runtime.csproj">
+      <Project>{331fa4e9-ccaf-8c92-cc3c-26e4f6108575}</Project>
+      <Name>AlephVault.Unity.Meetgard.Auth.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.GabTab.Editor.csproj">
+      <Project>{c195061d-d23d-54f7-5f04-bed904765874}</Project>
+      <Name>GameMeanMachine.Unity.GabTab.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.RefMapChars.Editor.csproj">
+      <Project>{bb26c028-e9a9-1946-caf4-72b544529307}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.RefMapChars.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.SoundAround.csproj">
+      <Project>{9f88b8ce-e62e-2e81-172f-57c23554e356}</Project>
+      <Name>AlephVault.Unity.SoundAround</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.NetRose.Samples.csproj">
+      <Project>{fdb41d1c-2b57-736e-cea0-490a9dd9ac72}</Project>
+      <Name>GameMeanMachine.Unity.NetRose.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.NetRose.Runtime.csproj">
+      <Project>{f0ad406d-e200-4869-6c99-bb71e2b0b0c6}</Project>
+      <Name>GameMeanMachine.Unity.NetRose.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.Runtime.csproj">
+      <Project>{e2979509-8bbe-88ab-80e7-d8328a1f188c}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.GabTab.Runtime.csproj">
+      <Project>{244d1511-4691-a3e0-5bfb-9215bbcb1312}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.GabTab.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.Meetgard.Samples.csproj">
+      <Project>{f2c57f18-a54c-c880-42e9-248fb63c116f}</Project>
+      <Name>AlephVault.Unity.Meetgard.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.NetRose.Editor.csproj">
+      <Project>{08c97bf0-da80-31be-0e26-65cda7a2cff1}</Project>
+      <Name>GameMeanMachine.Unity.NetRose.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.CubeWorlds.Runtime.csproj">
+      <Project>{c7db9fd9-9257-99d5-cc13-3aa790e82419}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.CubeWorlds.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.TextureUtils.Runtime.csproj">
+      <Project>{f068271e-9b99-3dd9-7b7f-563153c70dd3}</Project>
+      <Name>AlephVault.Unity.TextureUtils.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.Meetgard.Runtime.csproj">
+      <Project>{9df70f52-50da-2ae0-c34e-e4f2bdc19750}</Project>
+      <Name>AlephVault.Unity.Meetgard.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.NeighbourTeleports.Runtime.csproj">
+      <Project>{89e1cd6a-95e8-c43e-45e1-e32b1d737907}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.NeighbourTeleports.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.SpriteUtils.Runtime.csproj">
+      <Project>{4807efa3-ca58-781a-94fd-1c533a1b6d26}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.SpriteUtils.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.SpriteUtils.Samples.csproj">
+      <Project>{56a9d3d5-3c2e-8191-42d1-5e7a76612e46}</Project>
+      <Name>AlephVault.Unity.SpriteUtils.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.RemoteStorage.Runtime.csproj">
+      <Project>{a348c6f6-76bf-5f27-dffc-abb37b053751}</Project>
+      <Name>AlephVault.Unity.RemoteStorage.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.Support.Generic.Runtime.csproj">
+      <Project>{36b7171f-0ea6-e806-a4bf-9b4d071e874f}</Project>
+      <Name>AlephVault.Unity.Support.Generic.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.NetRose.Storage.Editor.csproj">
+      <Project>{fb3e0a15-8d3c-ed52-ae49-0b6d7dbb99c7}</Project>
+      <Name>GameMeanMachine.Unity.NetRose.Storage.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.Support.Generic.Editor.csproj">
+      <Project>{e3395fe2-6dd7-0174-fe11-40993fde72b3}</Project>
+      <Name>AlephVault.Unity.Support.Generic.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.GabTab.Runtime.csproj">
+      <Project>{49b886a9-6e86-4a4e-7ed5-935b98ddef60}</Project>
+      <Name>GameMeanMachine.Unity.GabTab.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.Biomes.Samples.csproj">
+      <Project>{9b175637-cebc-0dc9-c893-5f0a5319592f}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.Biomes.Samples</Name>
+    </ProjectReference>
     <ProjectReference Include="AlephVault.Unity.Layout.Runtime.csproj">
       <Project>{bd21ebbf-4615-dd0f-c09c-db39f760560b}</Project>
       <Name>AlephVault.Unity.Layout.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.NeighbourTeleports.Samples.csproj">
+      <Project>{59130fbc-7078-29ea-42ae-66829904428b}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.NeighbourTeleports.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.BackPack.Runtime.csproj">
+      <Project>{eaabc009-b961-11f6-7dfb-0132477b7c3a}</Project>
+      <Name>GameMeanMachine.Unity.BackPack.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.Binary.Runtime.csproj">
+      <Project>{446ad4e5-fe88-6b36-b577-1446f964019b}</Project>
+      <Name>AlephVault.Unity.Binary.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.SpriteUtils.Samples.csproj">
+      <Project>{b65743fa-1ac9-8eb7-c34a-2de95e3cbeff}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.SpriteUtils.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.SpriteUtils.Runtime.csproj">
+      <Project>{9b92ed08-e55b-c3cc-82fc-c435f51ba1ef}</Project>
+      <Name>AlephVault.Unity.SpriteUtils.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.Editor.csproj">
+      <Project>{3a92c449-6c2e-b01a-2e9e-178ea4cba379}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.RefMapChars.Samples.csproj">
+      <Project>{26cccd01-23b0-dc44-e389-88d4490cc5e1}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.RefMapChars.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.Meetgard.Auth.Editor.csproj">
+      <Project>{58084023-7410-97c6-7f48-1fd74c45b692}</Project>
+      <Name>AlephVault.Unity.Meetgard.Auth.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.TextureUtils.Samples.csproj">
+      <Project>{c6b25105-1056-15ce-1a11-bfc7a2be7d73}</Project>
+      <Name>AlephVault.Unity.TextureUtils.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.Meetgard.Editor.csproj">
+      <Project>{07fd45f9-1023-eae4-5652-70048015fad9}</Project>
+      <Name>AlephVault.Unity.Meetgard.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.Meetgard.Auth.Samples.csproj">
+      <Project>{ca9c007e-74a7-4ff9-49f2-09ab743b9635}</Project>
+      <Name>AlephVault.Unity.Meetgard.Auth.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.RemoteStorage.Samples.csproj">
+      <Project>{fd9d267d-1158-068e-f750-439f9a7ae5a9}</Project>
+      <Name>AlephVault.Unity.RemoteStorage.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.CubeWorlds.Samples.csproj">
+      <Project>{29c6f9c2-9d9d-2327-6899-881b553971a9}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.CubeWorlds.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.BackPack.Editor.csproj">
+      <Project>{c6aae7aa-e418-1ed8-5754-8e6d854abe0c}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.BackPack.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

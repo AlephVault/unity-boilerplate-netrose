@@ -13,11 +13,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9df70f52-50da-2ae0-c34e-e4f2bdc19750}</ProjectGuid>
+    <ProjectGuid>{26cccd01-23b0-dc44-e389-88d4490cc5e1}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>AlephVault.Unity.Meetgard.Runtime</AssemblyName>
+    <AssemblyName>GameMeanMachine.Unity.WindRose.RefMapChars.Samples</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -52,51 +52,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Client\PingProtocolClientSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\NetworkServer\NetworkServer_lifeCycle.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Client\NetworkClient\NetworkClient.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\NetworkServer\NetworkServer_protocols.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Client\MandatoryHandshakeProtocolClientSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\NetworkServer\NetworkServer_endpoints.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\NetworkServer\NetworkServer_events.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\UnexpectedMessageException.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\NetworkServer\NetworkServer_streams.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\Exception.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\IProtocolServerSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Client\ProtocolClientSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Protocols\MandatoryHandshakeProtocolDefinition.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\IncomingMessageTypeMismatchException.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\MessageOverflowException.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\MissingZeroProtocol.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Utils\MessageUtils.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\ServerSideThrottler.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\MessageHeader.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\NetworkServer\NetworkServer_main.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Client\NetworkClient\NetworkClient_streams.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Protocols\ProtocolDefinition.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Client\ZeroProtocolClientSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\ZeroProtocolServerSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Client\NetworkClient\NetworkClient_main.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\Endpoints\Remote\NetworkRemoteEndpoint_events.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\NetworkServer\NetworkServer.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Client\IProtocolClientSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\ProtocolServerSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\Endpoints\Remote\NetworkRemoteEndpoint_main.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Protocols\ZeroProtocolDefinition.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\Endpoints\NetworkEndpoint.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Client\NetworkClient\NetworkClient_protocols.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\MandatoryHandshakeProtocolServerSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\Nothing.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\HandlerAlreadyRegisteredException.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\Endpoints\Remote\NetworkRemoteEndpoint_lifeCycle.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\OutgoingMessageTypeMismatchException.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\UnknownProtocolException.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Client\ClientSideThrottler.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Types\Endpoints\Remote\NetworkRemoteEndpoint_messageQueues.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Authoring\Behaviours\Server\PingProtocolServerSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Protocols\PingProtocolDefinition.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\Protocols\Version.cs" />
-     <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Runtime\AlephVault.Unity.Meetgard.Runtime.asmdef" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Samples\Scripts\SampleRefMapRotator.cs" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-windrose-refmapchars\Samples\GameMeanMachine.Unity.WindRose.RefMapChars.Samples.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -690,17 +647,13 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="AlephVault.Unity.Binary.Runtime.csproj">
-      <Project>{446ad4e5-fe88-6b36-b577-1446f964019b}</Project>
-      <Name>AlephVault.Unity.Binary.Runtime</Name>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.RefMapChars.Runtime.csproj">
+      <Project>{5f06aa1b-e49c-87f1-803c-569952b05cc8}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.RefMapChars.Runtime</Name>
     </ProjectReference>
-    <ProjectReference Include="AlephVault.Unity.Support.Runtime.csproj">
-      <Project>{0cdefd7c-1670-a7d2-9c95-849900ed8a5e}</Project>
-      <Name>AlephVault.Unity.Support.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="AlephVault.Unity.Layout.Runtime.csproj">
-      <Project>{bd21ebbf-4615-dd0f-c09c-db39f760560b}</Project>
-      <Name>AlephVault.Unity.Layout.Runtime</Name>
+    <ProjectReference Include="GameMeanMachine.Unity.WindRose.Runtime.csproj">
+      <Project>{e2979509-8bbe-88ab-80e7-d8328a1f188c}</Project>
+      <Name>GameMeanMachine.Unity.WindRose.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

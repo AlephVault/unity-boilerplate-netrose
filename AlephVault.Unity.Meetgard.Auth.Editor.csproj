@@ -13,11 +13,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3a92c449-6c2e-b01a-2e9e-178ea4cba379}</ProjectGuid>
+    <ProjectGuid>{58084023-7410-97c6-7f48-1fd74c45b692}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>GameMeanMachine.Unity.WindRose.Editor</AssemblyName>
+    <AssemblyName>AlephVault.Unity.Meetgard.Auth.Editor</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -52,20 +52,24 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Editor\MenuActions\Objects\TeleporterUtils.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Editor\Authoring\Behaviours\World\Layers\Objects\ObjectsManagementStrategies\Solidness\SolidObjectMask.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Editor\MenuActions\Boilerplates\CreateObjectStrategy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Editor\MenuActions\Maps\MapUtils.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Editor\MenuActions\Tiles\TileUtils.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Editor\MenuActions\Tiles\BundledTileUtils.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Editor\MenuActions\Visuals\VisualUtils.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Editor\MenuActions\Boilerplates\ProjectStartup.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Editor\MenuActions\Objects\ObjectUtils.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose\Editor\MenuActions\Tiles\StandardTileUtils.cs" />
-     <None Include="\home\luismasuelli\Projects\Unity\unity-windrose\Editor\GameMeanMachine.Unity.WindRose.Editor.asmdef" />
-     <None Include="\home\luismasuelli\Projects\Unity\unity-windrose\Editor\MenuActions\Boilerplates\Templates\ObjectsManagementStrategy.cs.txt" />
-     <None Include="\home\luismasuelli\Projects\Unity\unity-windrose\Editor\MenuActions\Boilerplates\Templates\ObjectStrategy.cs.txt" />
-     <None Include="\home\luismasuelli\Projects\Unity\unity-windrose\Editor\MenuActions\Boilerplates\Templates\TileStrategy.cs.txt" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Editor\MenuActions\Boilerplates\CreateAuthProtocol.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Editor\MenuActions\Boilerplates\CreateRegisterProtocol.cs" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Editor\MenuActions\Boilerplates\RegisterTemplates\Register.cs.txt" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Editor\MenuActions\Boilerplates\LoginTemplates\SimpleAuthProtocolDefinition.cs.txt" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Editor\MenuActions\Boilerplates\LoginTemplates\SimpleAuthProtocolClientSide.cs.txt" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Editor\AlephVault.Unity.Meetgard.Auth.Editor.asmdef" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Editor\MenuActions\Boilerplates\LoginTemplates\Login.cs.txt" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Editor\MenuActions\Boilerplates\RegisterTemplates\SimpleRegisterProtocolServerSide.cs.txt" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Editor\MenuActions\Boilerplates\RegisterTemplates\SimpleRegisterProtocolDefinition.cs.txt" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Editor\MenuActions\Boilerplates\RegisterTemplates\SimpleRegisterProtocolClientSide.cs.txt" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Editor\MenuActions\Boilerplates\LoginTemplates\AccountData.cs.txt" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Editor\MenuActions\Boilerplates\LoginTemplates\SimpleAuthUI.cs.txt" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Editor\MenuActions\Boilerplates\LoginTemplates\AccountPreviewData.cs.txt" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Editor\MenuActions\Boilerplates\RegisterTemplates\SimpleRegisterUI.cs.txt" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Editor\MenuActions\Boilerplates\RegisterTemplates\RegisterFailed.cs.txt" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Editor\MenuActions\Boilerplates\LoginTemplates\LoginFailed.cs.txt" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Editor\MenuActions\Boilerplates\LoginTemplates\Kicked.cs.txt" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Editor\MenuActions\Boilerplates\LoginTemplates\SimpleAuthProtocolServerSide.cs.txt" />
  <Reference Include="UnityEngine">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -674,25 +678,13 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="GameMeanMachine.Unity.WindRose.Runtime.csproj">
-      <Project>{e2979509-8bbe-88ab-80e7-d8328a1f188c}</Project>
-      <Name>GameMeanMachine.Unity.WindRose.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="AlephVault.Unity.Support.Runtime.csproj">
-      <Project>{0cdefd7c-1670-a7d2-9c95-849900ed8a5e}</Project>
-      <Name>AlephVault.Unity.Support.Runtime</Name>
+    <ProjectReference Include="AlephVault.Unity.Boilerplates.Editor.csproj">
+      <Project>{99dc2b18-6e2c-479b-399a-b9ec7cd57d0d}</Project>
+      <Name>AlephVault.Unity.Boilerplates.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AlephVault.Unity.MenuActions.Editor.csproj">
       <Project>{5535ec89-3ecf-e9e2-b738-8b640e032389}</Project>
       <Name>AlephVault.Unity.MenuActions.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="AlephVault.Unity.Layout.Runtime.csproj">
-      <Project>{bd21ebbf-4615-dd0f-c09c-db39f760560b}</Project>
-      <Name>AlephVault.Unity.Layout.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="AlephVault.Unity.Boilerplates.Editor.csproj">
-      <Project>{99dc2b18-6e2c-479b-399a-b9ec7cd57d0d}</Project>
-      <Name>AlephVault.Unity.Boilerplates.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -58,7 +58,12 @@
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Samples\Scripts\Chat\ChatClientKeys.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Samples\Scripts\Chat\Said.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Samples\Scripts\Chat\Nickname.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Samples\Scripts\Throttle\SampleThrottledProtocolClientSide.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Samples\Scripts\Throttle\SampleThrottledProtocolServerSide.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Samples\Scripts\Chat\ChatServerKeys.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Samples\Scripts\Throttle\SampleThrottledClientControlKeys.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Samples\Scripts\Throttle\SampleThrottledServerControlKeys.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Samples\Scripts\Throttle\SampleThrottledProtocolDefinition.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Samples\Scripts\Chat\ChatProtocolDefinition.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Samples\Scripts\Chat\ChatProtocolServerSide.cs" />
      <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard\Samples\AlephVault.Unity.Meetgard.Samples.asmdef" />
