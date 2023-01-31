@@ -41,14 +41,13 @@ So far this project relies on a set of packages that I could consider, at best, 
  - com.gamemeanmachine.unity.netrose.storage [Clone it - 0.0.1](https://gitlab.com/gamemeanmachine/unity-netrose-storage/-/tree/0.0.1).
  - com.gamemeanmachine.unity.netrose.refmapchars [Clone it - 0.0.1](https://gitlab.com/gamemeanmachine/unity-netrose-refmapchars/-/tree/0.0.1).
 
-
 Licenses
 --------
 
 Pay attention to license notices in the readme for the following packages:
 
  - com.gamemeanmachine.unity.windrose.lpcbiomes
- - com.gamemeanmachine.unity.netrose.refmapchars
+ - com.gamemeanmachine.unity.windrose.refmapchars
 
 As a general rule of thumb, NEVER use any asset included in any of the Samples/ directory (in any package), since most of them were generated with tools that DO NOT allow free distribution.
 
