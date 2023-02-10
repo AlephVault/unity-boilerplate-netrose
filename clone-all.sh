@@ -26,5 +26,5 @@ git clone --branch 0.0.4 git@gitlab.com:gamemeanmachine/unity-windrose-refmapcha
 git clone --branch 0.0.1 git@gitlab.com:gamemeanmachine/unity-windrose-lpcbiomes.git ../unity-windrose-lpcbiomes
 git clone --branch 0.0.1 git@gitlab.com:gamemeanmachine/unity-netrose.git ../unity-netrose
 git clone --branch 0.0.1 git@gitlab.com:gamemeanmachine/unity-netrose-storage.git ../unity-netrose-storage
-git clone --branch 0.0.1 git@gitlab.com:gamemeanmachine/unity-netrose-refmapchars.git ../unity-netrose-refmapchars
+git clone --branch 0.0.2 git@gitlab.com:gamemeanmachine/unity-netrose-refmapchars.git ../unity-netrose-refmapchars
 
