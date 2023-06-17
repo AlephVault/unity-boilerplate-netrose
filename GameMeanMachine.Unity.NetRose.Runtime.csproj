@@ -57,7 +57,6 @@
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Types\Models\IServerOwned.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Authoring\Behaviours\Client\NetRoseModelClientSide_queue.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Authoring\Behaviours\Server\NetRoseProtocolServerSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Authoring\Behaviours\Client\PrincipalObjectsNetRoseProtocolClientSide.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Authoring\Behaviours\Client\OwnedNetRoseModelClientSide.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Types\Models\Attachment.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Authoring\Behaviours\Server\NetRoseScopeServerSide.cs" />

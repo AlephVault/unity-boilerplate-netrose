@@ -672,6 +672,10 @@
       <Project>{446ad4e5-fe88-6b36-b577-1446f964019b}</Project>
       <Name>AlephVault.Unity.Binary.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.MenuActions.Editor.csproj">
+      <Project>{5535ec89-3ecf-e9e2-b738-8b640e032389}</Project>
+      <Name>AlephVault.Unity.MenuActions.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="AlephVault.Unity.Meetgard.Runtime.csproj">
       <Project>{9df70f52-50da-2ae0-c34e-e4f2bdc19750}</Project>
       <Name>AlephVault.Unity.Meetgard.Runtime</Name>
@@ -687,6 +691,10 @@
     <ProjectReference Include="GameMeanMachine.Unity.NetRose.Runtime.csproj">
       <Project>{f0ad406d-e200-4869-6c99-bb71e2b0b0c6}</Project>
       <Name>GameMeanMachine.Unity.NetRose.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.NetRose.Editor.csproj">
+      <Project>{08c97bf0-da80-31be-0e26-65cda7a2cff1}</Project>
+      <Name>GameMeanMachine.Unity.NetRose.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

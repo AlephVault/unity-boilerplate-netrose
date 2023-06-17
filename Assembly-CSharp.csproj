@@ -52,12 +52,25 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Server\Authoring\Behaviours\External\Models\Position.cs" />
-     <Compile Include="Assets\Scripts\Server\Authoring\Behaviours\External\Models\Character.cs" />
-     <Compile Include="Assets\Scripts\Server\Authoring\Behaviours\External\Client\MultiCharAccountAPIClient.cs" />
-     <Compile Include="Assets\Scripts\Server\Authoring\Behaviours\External\Models\Map.cs" />
-     <Compile Include="Assets\Scripts\Server\Authoring\Behaviours\External\Models\Scope.cs" />
-     <Compile Include="Assets\Scripts\Server\Authoring\Behaviours\External\Models\MultiCharAccount.cs" />
+     <Compile Include="Assets\Scripts\Models\RefreshData.cs" />
+     <Compile Include="Assets\Scripts\Server\Authoring\Behaviours\Protocols\MyGameProtocolServerSide.cs" />
+     <Compile Include="Assets\Scripts\Server\Authoring\Behaviours\NetworkObjects\MyModelServerSide.cs" />
+     <Compile Include="Assets\Scripts\Client\Authoring\Behaviours\NetworkObjects\MyModelClientSide.cs" />
+     <Compile Include="Assets\Scripts\Protocols\Messages\AimType.cs" />
+     <Compile Include="Assets\Scripts\Protocols\MyGameProtocolDefinition.cs" />
+     <Compile Include="Assets\Scripts\Models\MyType.cs" />
+     <Compile Include="Assets\Scripts\Client\Authoring\Behaviours\Protocols\MyGameProtocolClientSide.cs" />
+     <Compile Include="Assets\Scripts\Server\Authoring\Behaviours\Protocols\MyPrincipalProtocolServerSide.cs" />
+     <Compile Include="Assets\Scripts\Models\SpawnData.cs" />
+     <Compile Include="Assets\Scripts\Client\Authoring\Behaviours\Protocols\MySimpleAuthProtocolClientSide.cs" />
+     <Compile Include="Assets\Scripts\Client\Authoring\Behaviours\UI\MySimpleAuthUI.cs" />
+     <Compile Include="Assets\Scripts\Server\Authoring\Behaviours\Protocols\MySimpleAuthProtocolServerSide.cs" />
+     <Compile Include="Assets\Scripts\Server\Authoring\Types\AccountData.cs" />
+     <Compile Include="Assets\Scripts\Protocols\Messages\AccountPreviewData.cs" />
+     <Compile Include="Assets\Scripts\Protocols\Messages\Login.cs" />
+     <Compile Include="Assets\Scripts\Protocols\Messages\LoginFailed.cs" />
+     <Compile Include="Assets\Scripts\Protocols\Messages\Kicked.cs" />
+     <Compile Include="Assets\Scripts\Protocols\MySimpleAuthProtocolDefinition.cs" />
  <Reference Include="UnityEngine">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -740,6 +753,10 @@
       <Project>{0cdefd7c-1670-a7d2-9c95-849900ed8a5e}</Project>
       <Name>AlephVault.Unity.Support.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.NetRose.RefMapChars.Runtime.csproj">
+      <Project>{c456ae3f-41c0-edf0-ddab-294e2d0b51c2}</Project>
+      <Name>GameMeanMachine.Unity.NetRose.RefMapChars.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="AlephVault.Unity.Meetgard.Scopes.Samples.csproj">
       <Project>{d3357253-6b4b-9db2-9cc8-51edeb21ea00}</Project>
       <Name>AlephVault.Unity.Meetgard.Scopes.Samples</Name>
@@ -855,6 +872,10 @@
     <ProjectReference Include="AlephVault.Unity.Support.Generic.Editor.csproj">
       <Project>{e3395fe2-6dd7-0174-fe11-40993fde72b3}</Project>
       <Name>AlephVault.Unity.Support.Generic.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameMeanMachine.Unity.NetRose.RefMapChars.Editor.csproj">
+      <Project>{16a241c0-783e-5428-b02f-394a0e415ce9}</Project>
+      <Name>GameMeanMachine.Unity.NetRose.RefMapChars.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="GameMeanMachine.Unity.GabTab.Runtime.csproj">
       <Project>{49b886a9-6e86-4a4e-7ed5-935b98ddef60}</Project>
