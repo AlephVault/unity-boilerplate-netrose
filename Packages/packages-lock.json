@@ -33,7 +33,7 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.alephvault.unity.support": "0.0.1",
+        "com.alephvault.unity.support": "0.0.3",
         "com.alephvault.unity.layout": "0.0.1",
         "com.alephvault.unity.menuactions": "0.0.1",
         "com.alephvault.unity.boilerplates": "0.0.1",
@@ -45,7 +45,7 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.alephvault.unity.meetgard": "0.0.3",
+        "com.alephvault.unity.meetgard": "0.0.5",
         "com.alephvault.unity.support.generic": "0.0.1"
       }
     },
@@ -138,8 +138,9 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.gamemeanmachine.unity.windrose": "0.0.6",
-        "com.alephvault.unity.meetgard.scopes": "0.0.3"
+        "com.gamemeanmachine.unity.windrose": "0.0.7",
+        "com.alephvault.unity.meetgard.scopes": "0.0.3",
+        "com.alephvault.unity.meetgard": "0.0.4"
       }
     },
     "com.gamemeanmachine.unity.netrose.refmapchars": {
