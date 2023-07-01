@@ -2,7 +2,6 @@
   "dependencies": {
     "com.alephvault.unity.binary": "file:/home/luismasuelli/Projects/Unity/unity-binary",
     "com.alephvault.unity.boilerplates": "file:/home/luismasuelli/Projects/Unity/unity-boilerplates",
-    "com.alephvault.unity.camjam": "file:../../unity-camjam",
     "com.alephvault.unity.layout": "file:../../unity-layout",
     "com.alephvault.unity.meetgard": "file:../../unity-meetgard",
     "com.alephvault.unity.meetgard.auth": "file:../../unity-meetgard-auth",
