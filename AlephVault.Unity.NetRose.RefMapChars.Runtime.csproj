@@ -13,11 +13,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{36b7171f-0ea6-e806-a4bf-9b4d071e874f}</ProjectGuid>
+    <ProjectGuid>{baa01414-7f38-cc13-8c3d-b7c1c190fe6d}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>AlephVault.Unity.Support.Generic.Runtime</AssemblyName>
+    <AssemblyName>AlephVault.Unity.NetRose.RefMapChars.Runtime</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -52,17 +52,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\ICopy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\CollectionExtensions.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\Sampling\Random.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Types\OrderedSet.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Types\Interfaced.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\Copier.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Types\InterfacedList.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Types\Dictionary.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Behaviours\SingletonBehaviour.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\Sampling\Cyclic.cs" />
-     <None Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\AlephVault.Unity.Support.Generic.Runtime.asmdef" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose-refmapchars\Runtime\Types\Models\RefMapItemPair.cs" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-netrose-refmapchars\Runtime\AlephVault.Unity.NetRose.RefMapChars.Runtime.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -656,9 +647,17 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="AlephVault.Unity.Support.Runtime.csproj">
-      <Project>{0cdefd7c-1670-a7d2-9c95-849900ed8a5e}</Project>
-      <Name>AlephVault.Unity.Support.Runtime</Name>
+    <ProjectReference Include="AlephVault.Unity.Binary.Runtime.csproj">
+      <Project>{446ad4e5-fe88-6b36-b577-1446f964019b}</Project>
+      <Name>AlephVault.Unity.Binary.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.WindRose.RefMapChars.Runtime.csproj">
+      <Project>{5eafc601-9572-5ac0-0171-3f02be005bcf}</Project>
+      <Name>AlephVault.Unity.WindRose.RefMapChars.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.NetRose.Editor.csproj">
+      <Project>{0d52162a-2385-3654-200d-0611f5c058e2}</Project>
+      <Name>AlephVault.Unity.NetRose.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

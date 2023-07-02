@@ -13,11 +13,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{36b7171f-0ea6-e806-a4bf-9b4d071e874f}</ProjectGuid>
+    <ProjectGuid>{22851175-7824-4b2d-cd2a-caf51e408e55}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>AlephVault.Unity.Support.Generic.Runtime</AssemblyName>
+    <AssemblyName>AlephVault.Unity.WindRose.SpriteUtils.Runtime</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -52,17 +52,34 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\ICopy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\CollectionExtensions.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\Sampling\Random.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Types\OrderedSet.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Types\Interfaced.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\Copier.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Types\InterfacedList.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Types\Dictionary.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Behaviours\SingletonBehaviour.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\Sampling\Cyclic.cs" />
-     <None Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\AlephVault.Unity.Support.Generic.Runtime.asmdef" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Authoring\Behaviours\AnimatedSelectionApplier.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Types\Selectors\AnimatedPivotedSelection.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Types\Selectors\MultiRoseAnimatedSelection.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Authoring\Behaviours\MultiStateSelectionApplier.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Types\IncompatibleSelectionException.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Types\Selectors\MultiRoseAnimatedPivotedSelection.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Types\Selectors\MultiAnimatedSelection.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Authoring\Behaviours\MultiAnimatedSelectionApplier.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Types\MultiSettings.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Types\Selectors\MultiSpritedPivotedSelection.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Authoring\Behaviours\MultiRoseSpritedSelectionApplier.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Types\Selectors\MultiRoseSpritedPivotedSelection.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Types\Selectors\RoseSpritedSelection.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Types\Selectors\RoseSpritedPivotedSelection.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Authoring\Behaviours\MultiSpritedSelectionApplier.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Authoring\Behaviours\MultiRoseAnimatedSelectionApplier.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Types\Selectors\MultiAnimatedPivotedSelection.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Authoring\Behaviours\SpritedSelectionApplier.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Authoring\Behaviours\RoseAnimatedSelectionApplier.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Types\Selectors\SpritedPivotedSelection.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Types\Selectors\SpritedSelection.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Types\Selectors\MultiSpritedSelection.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Authoring\Behaviours\RoseSpritedSelectionApplier.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Types\Selectors\AnimatedSelection.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Types\Selectors\RoseAnimatedSelection.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Types\Selectors\MultiRoseSpritedSelection.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\Types\Selectors\RoseAnimatedPivotedSelection.cs" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-windrose-spriteutils\Runtime\AlephVault.Unity.WindRose.SpriteUtils.Runtime.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -659,6 +676,18 @@
     <ProjectReference Include="AlephVault.Unity.Support.Runtime.csproj">
       <Project>{0cdefd7c-1670-a7d2-9c95-849900ed8a5e}</Project>
       <Name>AlephVault.Unity.Support.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.Layout.Runtime.csproj">
+      <Project>{bd21ebbf-4615-dd0f-c09c-db39f760560b}</Project>
+      <Name>AlephVault.Unity.Layout.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.SpriteUtils.Runtime.csproj">
+      <Project>{9b92ed08-e55b-c3cc-82fc-c435f51ba1ef}</Project>
+      <Name>AlephVault.Unity.SpriteUtils.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.WindRose.Runtime.csproj">
+      <Project>{751e468e-1d49-fe91-7302-a05b8157e0f7}</Project>
+      <Name>AlephVault.Unity.WindRose.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

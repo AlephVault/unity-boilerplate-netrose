@@ -13,11 +13,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{36b7171f-0ea6-e806-a4bf-9b4d071e874f}</ProjectGuid>
+    <ProjectGuid>{cd4a505b-7ff9-d16a-40b1-65c52e723c2a}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>AlephVault.Unity.Support.Generic.Runtime</AssemblyName>
+    <AssemblyName>AlephVault.Unity.NetRose.Runtime</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -52,17 +52,29 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\ICopy.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\CollectionExtensions.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\Sampling\Random.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Types\OrderedSet.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Types\Interfaced.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\Copier.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Types\InterfacedList.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Types\Dictionary.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Authoring\Behaviours\SingletonBehaviour.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\Types\Sampling\Cyclic.cs" />
-     <None Include="\home\luismasuelli\Projects\Unity\unity-support-generic\Runtime\AlephVault.Unity.Support.Generic.Runtime.asmdef" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Authoring\Behaviours\Server\NetRoseModelServerSide.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Types\Models\Position.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Types\Models\IServerOwned.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Authoring\Behaviours\Client\NetRoseModelClientSide_queue.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Authoring\Behaviours\Server\NetRoseProtocolServerSide.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Authoring\Behaviours\Client\OwnedNetRoseModelClientSide.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Types\Models\Attachment.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Authoring\Behaviours\Server\NetRoseScopeServerSide.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Types\Models\Status.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Authoring\Behaviours\Client\INetRoseModelClientSide.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Authoring\Behaviours\Server\OwnedNetRoseModelServerSide.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Authoring\Behaviours\Server\INetRoseModelServerSide.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Types\Protocols\Messages\Common\ObjectMessage.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Authoring\Behaviours\Server\PrincipalObjectsNetRoseProtocolServerSide.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Types\Protocols\Messages\Common\MovementStart.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Authoring\Behaviours\Client\NetRoseScopeClientSide.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Types\Models\IClientOwned.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Authoring\Behaviours\Client\NetRoseModelClientSide.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Authoring\Behaviours\Client\NetRoseProtocolClientSide.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Types\Models\OwnedModel.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Types\Protocols\NetRoseProtocolDefinition.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\Types\Models\MapObjectModel.cs" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-netrose\Runtime\AlephVault.Unity.NetRose.Runtime.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -659,6 +671,26 @@
     <ProjectReference Include="AlephVault.Unity.Support.Runtime.csproj">
       <Project>{0cdefd7c-1670-a7d2-9c95-849900ed8a5e}</Project>
       <Name>AlephVault.Unity.Support.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.Support.Generic.Runtime.csproj">
+      <Project>{36b7171f-0ea6-e806-a4bf-9b4d071e874f}</Project>
+      <Name>AlephVault.Unity.Support.Generic.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.Binary.Runtime.csproj">
+      <Project>{446ad4e5-fe88-6b36-b577-1446f964019b}</Project>
+      <Name>AlephVault.Unity.Binary.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.Meetgard.Runtime.csproj">
+      <Project>{9df70f52-50da-2ae0-c34e-e4f2bdc19750}</Project>
+      <Name>AlephVault.Unity.Meetgard.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.Meetgard.Scopes.Runtime.csproj">
+      <Project>{07ae5edf-e75b-1834-4a34-ade5aec1c4ff}</Project>
+      <Name>AlephVault.Unity.Meetgard.Scopes.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.WindRose.Runtime.csproj">
+      <Project>{751e468e-1d49-fe91-7302-a05b8157e0f7}</Project>
+      <Name>AlephVault.Unity.WindRose.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
