@@ -46,7 +46,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="/home/luis/Projects/AlephVault/unity-windrose-refmapchars/Editor/DictionaryPropertyDrawer.cs" />
+     <Compile Include="/home/luis/Projects/AlephVault/unity-windrose-refmapchars/Editor/MenuActions/Tools/CreateRefMapClothTexture.cs" />
      <Folder Include="/home/luis/Projects/AlephVault/unity-windrose-refmapchars/Editor" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-windrose-refmapchars/Editor/MenuActions" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-windrose-refmapchars/Editor/MenuActions/Tools" />
      <None Include="/home/luis/Projects/AlephVault/unity-windrose-refmapchars/Editor/AlephVault.Unity.WindRose.RefMapChars.Editor.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -729,6 +732,10 @@
     <ProjectReference Include="AlephVault.Unity.WindRose.RefMapChars.Runtime.csproj">
       <Project>{5eafc601-9572-5ac0-0171-3f02be005bcf}</Project>
       <Name>AlephVault.Unity.WindRose.RefMapChars.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.MenuActions.Editor.csproj">
+      <Project>{5535ec89-3ecf-e9e2-b738-8b640e032389}</Project>
+      <Name>AlephVault.Unity.MenuActions.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
