@@ -47,7 +47,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="/home/luis/Projects/AlephVault/unity-windrose-refmapchars/Editor/DictionaryPropertyDrawer.cs" />
-    <Compile Include="/home/luis/Projects/AlephVault/unity-windrose-refmapchars/Editor/MenuActions/Tools/CreateRefMapClothTexture.cs" />
+    <Compile Include="/home/luis/Projects/AlephVault/unity-windrose-refmapchars/Editor/MenuActions/GameAssets/CreateRefMapClothTexture.cs" />
+    <Compile Include="/home/luis/Projects/AlephVault/unity-windrose-refmapchars/Editor/MenuActions/Objects/CreateRefMapObjects.cs" />
     <None Include="/home/luis/Projects/AlephVault/unity-windrose-refmapchars/Editor/AlephVault.Unity.WindRose.RefMapChars.Editor.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>/home/luis/Unity/Hub/Editor/2023.2.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -797,6 +798,18 @@
     <ProjectReference Include="AlephVault.Unity.MenuActions.Editor.csproj">
       <Project>{5535ec89-3ecf-e9e2-b738-8b640e032389}</Project>
       <Name>AlephVault.Unity.MenuActions.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.WindRose.Runtime.csproj">
+      <Project>{751e468e-1d49-fe91-7302-a05b8157e0f7}</Project>
+      <Name>AlephVault.Unity.WindRose.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.Support.Runtime.csproj">
+      <Project>{0cdefd7c-1670-a7d2-9c95-849900ed8a5e}</Project>
+      <Name>AlephVault.Unity.Support.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.Layout.Runtime.csproj">
+      <Project>{bd21ebbf-4615-dd0f-c09c-db39f760560b}</Project>
+      <Name>AlephVault.Unity.Layout.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
